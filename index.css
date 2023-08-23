@@ -1,0 +1,341 @@
+body{
+	background-color: #ede7f6;
+	font-family: Roboto,Sans-serif;
+}
+.form{
+	height: 2000px;
+	width: 600px;
+	margin: auto;
+}
+.required{
+font-size: 13px;
+color: red;
+}
+.title-div{
+	height: 150px;
+	width: 610px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	border-top: 8px solid #6703c4;
+	padding:  2px  20px  60px 20px;
+}
+.name-div{
+	height: 180px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+.college-div, .gmail-div, .mobile-div{
+	height: 150px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+.name{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color: #6703c4;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.term{
+	font-size: 12px;
+	padding-left: 65px;
+	padding-top: 5px;
+	position: absolute;
+}
+.never{
+	padding-left: 15px;
+	font-size: 12px;
+	padding-top: 70px;
+	font-weight: 400;
+
+}
+.main2{
+    color: #5f6368;
+    margin-top: 30px;
+}
+/* Style for the container of the round checkbox */
+.round-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 15px;
+  }
+  
+  /* Style for the hidden native checkbox input */
+  .round-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style for the custom round checkbox */
+  .checkmark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 50%;
+    margin-right: 10px; /* Adjust this value to change the space */
+    margin-left: 5px; /* Add margin to the left for space */
+    position: relative;
+  }
+  
+  /* Style for the checkmark icon (hidden by default) */
+  .checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: #333;
+    border-radius: 50%;
+  }
+  .checkmark1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 15%;
+    margin-right: 10px; /* Adjust this value to change the space */
+    margin-left: 5px; /* Add margin to the left for space */
+    position: relative;
+  }
+  
+  /* Style for the checkmark icon (hidden by default) */
+  .checkmark1::after {
+    content: "";
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: #333;
+    border-radius: 15%;
+  }
+  
+  /* Show the checkmark when the checkbox is checked */
+  .round-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    display: block;
+  }
+  /* Style for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for the dropdown button */
+  .dropdown-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  /* Style for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for dropdown content items */
+  .dropdown-content li {
+    padding: 10px;
+  }
+  
+  /* Style for dropdown content links */
+  .dropdown-content a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Show the dropdown content when the button is hovered */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* Style for the file upload container */
+.file-upload {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  /* Style for the file label */
+  .file-label {
+    color: blue;
+  }
+  
+  /* Style for the file input */
+  .file-input {
+    display: none;
+  }
+  
+  /* Style for the file name display */
+  .file-name {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+  }
+  .name-div1{
+	height: 180px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+/* Style for the linear scale container */
+.linear-scale {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the scale label */
+.scale-label {
+  margin-right: 10px;
+}
+
+/* Style for the checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the checkboxes */
+.checkbox {
+  display: none;
+}
+
+/* Style for the checkbox labels */
+.checkbox-label {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Style for the checked checkbox labels */
+.checkbox:checked + .checkbox-label {
+  background-color: #3498db;
+  color: #fff;
+  border-color: #3498db;
+}
+/* Style for the linear scale container */
+.linear-scale {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  /* Style for the scale label */
+  .scale-label {
+    margin-right: 10px;
+  }
+  
+  /* Style for the checkbox container */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the checkboxes */
+  .checkbox {
+    display: none;
+  }
+  
+  /* Style for the checkbox labels */
+  .checkbox-label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the checked checkbox labels */
+  .checkbox:checked + .checkbox-label {
+    background-color: #3498db;
+    color: #fff;
+    border-color: #3498db;
+  }
+  .name-div1{
+    height: 250px;
+    width: 650px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+  }
+  table{
+    height: 100px;
+    margin-left: 20px;
+  }
+  th{
+    font-weight: 300;
+  }
+  .td{
+    padding-left: 100px;
+    padding-bottom: 16px;
+  }
+ .tr{
+  background-color: #f8f9fa;
+ }
+   
+  
